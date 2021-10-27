@@ -39,4 +39,21 @@
   	<servlet-name>servletEx</servlet-name>
   	<url-pattern>/jspEx.jsp</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>servletEx2</servlet-name>
+  		<servlet-class>com.servlet.ServletEx2</servlet-class>
+  		<init-param>
+	  		<param-name>adminId</param-name>
+	  		<param-value>admin</param-value>
+  		</init-param>
+	  	<init-param>
+	  		<param-name>adminPw</param-name>
+	  		<param-value>1234</param-value>
+	  	</init-param>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>servletEx2</servlet-name>
+  		<url-pattern>/se2</url-pattern>
+  </servlet-mapping>
 </web-app>
